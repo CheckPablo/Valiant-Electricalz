@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="Valiant Electricalz delivers electrical installations, architectural lighting and solar backup for homes and businesses across Zimbabwe.">
+  <title>Valiant Electricalz | Power, thoughtfully delivered</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+/* mobile-speed-boost */
+img,svg,video{max-width:100%;height:auto;display:block}
+body{overflow-x:hidden}
+@media (max-width: 768px){
+  html,body{overflow-x:hidden}
+  body{line-height:1.55}
+  .wrap,.container,.max-w-7xl,.max-w-6xl,.max-w-5xl,.max-w-4xl{width:min(100% - 20px,100%) !important}
+  .hero,.section,.nav,.site-header,.cta,.solar,.footer,.fgrid,.grid,.bento,.steps{max-width:100% !important}
+  .mobile-stack > *{width:100% !important}
+}
+
+    :root {
+      color-scheme: light;
+      --navy: #0f172a;
+      --navy-deep: #080d19;
+      --purple: #4c1d95;
+      --purple-bright: #8b5cf6;
+      --gold: #eab308;
+      --gold-light: #fef3c7;
+      --paper: #f8f7f4;
+      --white: #fff;
+      --ink: #192338;
+      --muted: #647084;
+      --line: #e6e5e1;
+      --body: "DM Sans", sans-serif;
+      --display: "Manrope", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    img, svg { display: block; }
+    button { font: inherit; }
+    .wrap { width: min(1160px, calc(100% - 48px)); margin-inline: auto; }
+    .topbar { background: var(--navy-deep); color: #e9e7f1; font-size: 11px; }
+    .topbar-inner { min-height: 38px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .topbar-note { display: inline-flex; align-items: center; gap: 9px; }
+    .topbar-note::before { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); content: ""; }
+    .topbar a { color: var(--gold); font-weight: 700; }
+    .site-header { position: sticky; top: 0; z-index: 20; background: rgba(248,247,244,.95); border-bottom: 1px solid rgba(15,23,42,.08); backdrop-filter: blur(14px); }
+    .nav { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; flex: 0 0 auto; }
+    .brand img { width: 44px; height: 44px; }
+    .brand-name { display: block; color: var(--navy); font: 800 14px/1.2 var(--display); letter-spacing: .25px; }
+    .brand-tag { display: block; margin-top: 3px; color: var(--muted); font-size: 9px; font-weight: 600; letter-spacing: .8px; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: clamp(16px, 2.5vw, 32px); color: #414b5c; font-size: 12px; font-weight: 700; }
+    .nav-links a:hover, .footer-links a:hover { color: var(--purple-bright); }
+    .button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 20px; border: 1px solid transparent; border-radius: 4px; font-size: 12px; font-weight: 700; transition: transform .2s ease, background .2s ease, color .2s ease; }
+    .button:hover { transform: translateY(-2px); }
+    .button-dark { background: var(--navy); color: var(--white); }
+    .button-dark:hover { background: var(--purple); }
+    .button-gold { background: var(--gold); color: var(--navy); }
+    .button-gold:hover { background: #facc15; }
+    .button-outline { border-color: rgba(255,255,255,.4); color: var(--white); }
+    .button-outline:hover { background: var(--white); color: var(--navy); }
+    .arrow { font-size: 17px; line-height: 1; }
+    .menu-toggle { display: none; width: 42px; height: 42px; border: 1px solid var(--line); background: transparent; color: var(--navy); font-size: 20px; cursor: pointer; }
+
+    .hero { position: relative; overflow: hidden; padding: 70px 0 76px; background: var(--navy); color: var(--white); }
+    .hero::after { position: absolute; right: -110px; bottom: -260px; width: 560px; height: 560px; border: 1px solid rgba(139,92,246,.3); border-radius: 50%; box-shadow: 0 0 0 55px rgba(139,92,246,.045), 0 0 0 110px rgba(139,92,246,.035); content: ""; pointer-events: none; }
+    .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: clamp(36px, 7vw, 82px); }
+    .hero-kicker, .eyebrow { margin: 0; color: var(--gold); font-size: 10px; font-weight: 800; letter-spacing: 1.7px; text-transform: uppercase; }
+    h1 { max-width: 580px; margin: 19px 0 18px; font: 700 clamp(42px, 5.5vw, 68px)/1.04 var(--display); letter-spacing: -2.5px; }
+    h1 span { color: var(--gold); }
+    .hero-copy > p:not(.hero-kicker) { max-width: 480px; margin: 0; color: #c2c8d5; font-size: 15px; line-height: 1.8; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 27px; }
+    .hero-aside { display: flex; align-items: center; gap: 12px; margin-top: 28px; color: #c2c8d5; font-size: 11px; }
+    .hero-aside svg { width: 18px; height: 18px; flex: 0 0 auto; color: var(--gold); }
+    .hero-visual { position: relative; min-height: 430px; }
+    .hero-photo { position: absolute; inset: 0 0 0 28px; width: calc(100% - 28px); height: 100%; object-fit: cover; }
+    .hero-frame { position: absolute; inset: 17px -1px -17px 11px; border: 1px solid rgba(234,179,8,.8); pointer-events: none; }
+    .hero-label { position: absolute; right: -16px; bottom: 23px; max-width: 225px; padding: 17px 20px; background: var(--gold); color: var(--navy); }
+    .hero-label strong { display: block; font: 800 14px var(--display); }
+    .hero-label span { display: block; margin-top: 5px; font-size: 10px; line-height: 1.5; }
+
+    .intro-strip { border-bottom: 1px solid var(--line); background: var(--white); }
+    .intro-strip-inner { display: grid; grid-template-columns: 1.1fr 1fr 1fr; }
+    .intro-cell { min-height: 108px; display: flex; align-items: center; gap: 15px; padding: 20px 24px; border-right: 1px solid var(--line); }
+    .intro-cell:first-child { padding-left: 0; }
+    .intro-cell:last-child { border: 0; }
+    .intro-icon { width: 40px; height: 40px; display: grid; place-items: center; flex: 0 0 auto; background: var(--gold-light); color: var(--purple); }
+    .intro-icon svg { width: 19px; height: 19px; }
+    .intro-cell strong { display: block; font: 700 12px var(--display); }
+    .intro-cell span:last-child { display: block; margin-top: 4px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+
+    .section { padding: 88px 0; }
+    .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 34px; }
+    .section-heading .eyebrow { color: var(--purple); }
+    .section-title { max-width: 600px; margin: 11px 0 0; font: 700 clamp(30px, 4vw, 45px)/1.13 var(--display); letter-spacing: -1.2px; }
+    .section-copy { max-width: 420px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+    .services { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .service-card { min-height: 255px; display: flex; flex-direction: column; align-items: flex-start; padding: 24px 22px; border: 1px solid var(--line); background: var(--white); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+    .service-card:hover { transform: translateY(-4px); border-color: #d2c2f2; box-shadow: 0 15px 35px rgba(15,23,42,.07); }
+    .service-icon { width: 43px; height: 43px; display: grid; place-items: center; background: var(--navy); color: var(--gold); }
+    .service-icon svg { width: 22px; height: 22px; }
+    .service-index { margin: 21px 0 7px; color: var(--purple); font-size: 9px; font-weight: 800; letter-spacing: 1.3px; }
+    .service-card h3 { margin: 0; font: 700 16px/1.4 var(--display); }
+    .service-card p { margin: 9px 0 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
+
+    .solar { display: grid; grid-template-columns: 1fr 1fr; min-height: 430px; background: var(--navy-deep); color: var(--white); }
+    .solar-image { min-height: 430px; overflow: hidden; }
+    .solar-image img { width: 100%; height: 100%; object-fit: cover; }
+    .solar-content { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: clamp(38px, 7vw, 82px); }
+    .solar-content h2 { max-width: 470px; margin: 13px 0; font: 700 clamp(30px, 3.8vw, 45px)/1.12 var(--display); letter-spacing: -1px; }
+    .solar-content > p:not(.eyebrow) { max-width: 480px; margin: 0; color: #c2c8d5; font-size: 13px; line-height: 1.8; }
+    .solar-points { display: flex; flex-wrap: wrap; gap: 10px 20px; margin: 22px 0 27px; color: #eeeaf8; font-size: 10px; }
+    .solar-points span::before { margin-right: 7px; color: var(--gold); content: "✦"; }
+
+    .coverage { background: #efeee9; }
+    .coverage-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 70px; align-items: center; }
+    .coverage .eyebrow { color: var(--purple); }
+    .coverage .section-copy { margin-top: 15px; }
+    .location-list { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid #d9d8d2; }
+    .location { min-height: 58px; display: flex; align-items: center; gap: 10px; padding: 13px 15px; border-bottom: 1px solid #d9d8d2; font-size: 12px; font-weight: 700; }
+    .location:nth-child(odd) { border-right: 1px solid #d9d8d2; }
+    .location::before { width: 7px; height: 7px; background: var(--gold); content: ""; }
+    .location-note { color: var(--purple); background: #f4efff; }
+
+    .contact-band { padding: 56px 0; background: var(--gold); }
+    .contact-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+    .contact-inner .eyebrow { color: var(--purple); }
+    .contact-inner h2 { max-width: 620px; margin: 9px 0 0; color: var(--navy); font: 700 clamp(28px, 4vw, 42px)/1.14 var(--display); letter-spacing: -1px; }
+    .contact-inner .button { flex: 0 0 auto; background: var(--navy); color: var(--white); }
+    .contact-inner .button:hover { background: var(--purple); }
+    footer { padding: 46px 0 20px; background: var(--navy); color: var(--white); }
+    .footer-main { display: grid; grid-template-columns: 1.4fr .8fr 1fr; gap: 48px; padding-bottom: 36px; }
+    .footer-brand .brand-name { color: var(--white); }
+    .footer-brand .brand-tag { color: #b8bdc9; }
+    .footer-brand p { max-width: 340px; margin: 14px 0 0; color: #c2c8d5; font-size: 11px; line-height: 1.8; }
+    .footer-heading { margin: 5px 0 16px; color: var(--gold); font-size: 10px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; }
+    .footer-links { display: grid; justify-items: start; gap: 11px; color: #e4e6eb; font-size: 11px; }
+    .footer-socials { display: flex; gap: 9px; margin-top: 19px; }
+    .social-link { width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.25); color: var(--white); transition: background .2s ease, color .2s ease; }
+    .social-link:hover { background: var(--gold); color: var(--navy); }
+    .social-link svg { width: 17px; height: 17px; }
+    .footer-bottom { display: flex; justify-content: space-between; gap: 15px; padding-top: 17px; border-top: 1px solid rgba(255,255,255,.16); color: #b8bdc9; font-size: 10px; }
+    .whatsapp-float { position: fixed; right: 22px; bottom: 22px; z-index: 30; width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; background: #25d366; color: white; box-shadow: 0 8px 24px rgba(0,0,0,.24); transition: transform .2s ease, box-shadow .2s ease; }
+    .whatsapp-float:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(0,0,0,.3); }
+    .whatsapp-float svg { width: 28px; height: 28px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; clip-path: inset(50%); }
+
+    @media (max-width: 900px) {
+      .nav-links { gap: 14px; }
+      .nav-cta { display: none; }
+      .hero-grid { gap: 36px; }
+      .hero-visual { min-height: 380px; }
+      .services { grid-template-columns: repeat(2, 1fr); }
+      .coverage-grid { gap: 36px; }
+    }
+    @media (max-width: 680px) {
+      .wrap { width: min(100% - 36px, 520px); }
+      .topbar-inner { min-height: 34px; justify-content: center; }
+      .topbar-note { display: none; }
+      .nav { min-height: 68px; }
+      .brand img { width: 39px; height: 39px; }
+      .menu-toggle { display: grid; place-items: center; }
+      .nav-links { position: absolute; top: 68px; right: 0; left: 0; display: none; align-items: stretch; gap: 0; padding: 6px 18px 14px; border-bottom: 1px solid var(--line); background: var(--paper); }
+      .nav-links.open { display: grid; }
+      .nav-links a { padding: 13px 0; border-top: 1px solid var(--line); }
+      .hero { padding: 47px 0 55px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 35px; }
+      h1 { font-size: clamp(42px, 11vw, 58px); letter-spacing: -1.7px; }
+      .hero-copy > p:not(.hero-kicker) { font-size: 14px; }
+      .hero-visual { min-height: 310px; margin-right: 12px; }
+      .hero-label { right: -12px; bottom: 13px; }
+      .intro-strip-inner { grid-template-columns: 1fr; padding-block: 8px; }
+      .intro-cell, .intro-cell:first-child { min-height: 73px; padding: 12px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+      .intro-cell:last-child { border-bottom: 0; }
+      .section { padding: 65px 0; }
+      .section-heading { display: block; }
+      .section-heading .section-copy { margin-top: 14px; }
+      .services { gap: 9px; }
+      .service-card { min-height: 245px; padding: 18px 15px; }
+      .service-card h3 { font-size: 14px; }
+      .solar { grid-template-columns: 1fr; }
+      .solar-image { min-height: 270px; }
+      .solar-content { padding: 43px 24px 49px; }
+      .coverage-grid { grid-template-columns: 1fr; gap: 27px; }
+      .location { padding-inline: 10px; font-size: 11px; }
+      .contact-inner { align-items: flex-start; flex-direction: column; }
+      .footer-main { grid-template-columns: 1fr 1fr; gap: 32px 20px; }
+      .footer-brand { grid-column: 1 / -1; }
+      .footer-bottom { flex-direction: column; }
+      .whatsapp-float { right: 16px; bottom: 16px; width: 54px; height: 54px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span class="topbar-note">Electrical installations · Lighting · Solar backup</span>
+      <a href="tel:+263710440766">Call our team: +263 710 440 766</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Valiant Electricalz home">
+        <img src="assets/images/valiant-logo.svg" alt="">
+        <span><span class="brand-name">VALIANT ELECTRICALZ</span><span class="brand-tag">Sparkling services, every time</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#solar">Solar</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="button button-dark nav-cta" href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">Get a project quote <span class="arrow" aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">Power, thoughtfully delivered</p>
+          <h1 id="heroTitle">Make every connection <span>count.</span></h1>
+          <p>Dependable electrical installations, considered lighting and solar backup for homes and businesses across Zimbabwe.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="https://wa.me/263710440766?text=Hello%20Valiant%20Electricalz%2C%20I%27d%20like%20to%20request%20a%20project%20quote." target="_blank" rel="noopener noreferrer">Discuss your project <span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#services">Explore our services <span class="arrow" aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-aside">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.7 3.2 7.8 7.5 9.5 4.3-1.7 7.5-4.8 7.5-9.5V6L12 3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            <span>Residential and commercial work, tailored to your site and scope.</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-photo" src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Electrician carefully working on an electrical installation" fetchpriority="high">
+          <span class="hero-frame" aria-hidden="true"></span>
+          <div class="hero-label"><strong>Power with purpose.</strong><span>Skilled installation. Thoughtful finishing. Reliable results.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-strip" aria-label="Company information">
+      <div class="wrap intro-strip-inner">
+        <div class="intro-cell"><span class="intro-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 4.5 6v5.5c0 4.7 3.2 7.8 7.5 9.5 4.3-1.7 7.5-4.8 7.5-9.5V6L12 3Z"/><path d="m9 12 2 2 4-4"/></svg></span><span><strong>Safety-led installations</strong><span>Careful planning and attention to detail</span></span></div>
+        <div class="intro-cell"><span class="intro-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v10h13V10M9 20v-6h6v6"/></svg></span><span><strong>Homes &amp; businesses</strong><span>Solutions shaped around your property</span></span></div>
+        <div class="intro-cell"><span class="intro-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v5m0 10v5M4.93 4.93l3.54 3.54m7.06 7.06 3.54 3.54M2 12h5m10 0h5M4.93 19.07l3.54-3.54m7.06-7.06 3.54-3.54"/><circle cx="12" cy="12" r="4"/></svg></span><span><strong>Zimbabwe-wide service</strong><span>Get in touch to discuss your location</span></span></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">Our expertise</p><h2 class="section-title">Practical solutions. A polished finish.</h2></div>
+          <p class="section-copy">From the first fix to the final fitting, get considered electrical work designed around how your space is used.</p>
+        </div>
+        <div class="services">
+          <article class="service-card"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 18h6m-5 3h4m-2-19a7 7 0 0 0-4 12.7c.8.6 1 1.2 1 2.3h6c0-1.1.2-1.7 1-2.3A7 7 0 0 0 12 2Z"/></svg></span><span class="service-index">01 / LIGHTING</span><h3>Architectural lighting</h3><p>LED cove details, recessed spots, feature lights, tracks and dimmer controls.</p></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z"/></svg></span><span class="service-index">02 / INSTALLATION</span><h3>Wiring &amp; distribution</h3><p>Conduit wiring, circuit balancing, distribution boards and surge protection.</p></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h8M8 11h3m2 0h3M8 15h3m2 0h3"/></svg></span><span class="service-index">03 / METERING</span><h3>DB boards &amp; metering</h3><p>Single- and three-phase boards, breaker setup and STS token meter installations.</p></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M4.93 4.93l2.12 2.12m9.9 9.9 2.12 2.12M2 12h3m14 0h3M4.93 19.07l2.12-2.12m9.9-9.9 2.12-2.12"/></svg></span><span class="service-index">04 / ENERGY</span><h3>Solar &amp; backup power</h3><p>Solar panels, hybrid inverters, battery storage and changeover systems.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="solar" id="solar">
+      <div class="solar-image"><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Solar panels positioned to capture sunlight" loading="lazy"></div>
+      <div class="solar-content">
+        <p class="eyebrow">Keep the essentials running</p>
+        <h2>Backup power built around your day.</h2>
+        <p>Explore solar and backup options selected for your property, usage and budget. We can help scope panel mounting, inverter installation, battery storage and changeover.</p>
+        <div class="solar-points"><span>Residential systems</span><span>Hybrid inverters</span><span>Battery storage</span></div>
+        <a class="button button-gold" href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%27m%20interested%20in%20a%20solar%20or%20backup%20power%20system." target="_blank" rel="noopener noreferrer">Plan a solar project <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section coverage" id="coverage">
+      <div class="wrap coverage-grid">
+        <div><p class="eyebrow">Where we work</p><h2 class="section-title">Local expertise, Zimbabwe-wide reach.</h2><p class="section-copy">Available for residential and commercial projects in Harare and surrounding towns. Contact us to discuss your location and project requirements.</p></div>
+        <div class="location-list" aria-label="Service areas">
+          <div class="location">Harare</div><div class="location">Mutare</div>
+          <div class="location">Rusape</div><div class="location">Chipinge</div>
+          <div class="location">Chiredzi</div><div class="location">Banket</div>
+          <div class="location">Hurungwe</div><div class="location location-note">Ask about your area</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contact">
+      <div class="wrap contact-inner">
+        <div><p class="eyebrow">Let's get started</p><h2>Tell us what you’re looking to power.</h2></div>
+        <a class="button" href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener noreferrer">Message our team <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="#top"><img src="assets/images/valiant-logo.svg" alt=""><span><span class="brand-name">VALIANT ELECTRICALZ</span><span class="brand-tag">Sparkling services, every time</span></span></a>
+          <p>Electrical installation, architectural lighting and solar backup for homes and businesses across Zimbabwe.</p>
+          <div class="footer-socials" aria-label="Connect with Valiant Electricalz">
+            <a class="social-link" href="https://facebook.com/valiantelectricalzw" target="_blank" rel="noopener noreferrer" aria-label="Valiant Electricalz on Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2v-2c0-.9.3-1.6 1.6-1.6h1.8V3.1c-.3 0-1.4-.1-2.7-.1-2.7 0-4.5 1.6-4.5 4.6v2H7v3.2h2.7V21h3.8Z"/></svg></a>
+            <a class="social-link" href="https://wa.me/263710440766" target="_blank" rel="noopener noreferrer" aria-label="Message Valiant Electricalz on WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L4 20l1.2-4A8.2 8.2 0 1 1 20.2 11.7Z"/><path d="M9 8.3c.2-.4.4-.4.7-.4h.4c.2 0 .3.1.4.4l.7 1.6c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.5.9 1.2 1.6 2.2 2.1.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1.2-.8 1.6-.5.4-1.1.6-1.8.4-1.1-.3-2.4-.9-3.7-2.1-1.1-1-1.9-2.2-2.2-3.2-.3-.9.1-1.8.5-2.4Z"/></svg></a>
+          </div>
+        </div>
+        <div><h2 class="footer-heading">Explore</h2><div class="footer-links"><a href="#services">Services</a><a href="#solar">Solar solutions</a><a href="#coverage">Coverage</a><a href="#contact">Contact</a></div></div>
+        <div><h2 class="footer-heading">Contact</h2><div class="footer-links"><a href="tel:+263710440766">+263 710 440 766</a><a href="https://wa.me/263710440766" target="_blank" rel="noopener noreferrer">WhatsApp us</a><span>Serving homes and businesses across Zimbabwe</span></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Valiant Electricalz. All rights reserved.</span><span>Electrical services · Lighting · Solar</span></div>
+    </div>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%27d%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer" aria-label="Chat with Valiant Electricalz on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L4 20l1.2-4A8.2 8.2 0 1 1 20.2 11.7Z"/><path d="M9 8.3c.2-.4.4-.4.7-.4h.4c.2 0 .3.1.4.4l.7 1.6c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.5.9 1.2 1.6 2.2 2.1.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1.2-.8 1.6-.5.4-1.1.6-1.8.4-1.1-.3-2.4-.9-3.7-2.1-1.1-1-1.9-2.2-2.2-3.2-.3-.9.1-1.8.5-2.4Z"/></svg>
+    <span class="sr-only">WhatsApp</span>
+  </a>
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+    });
+
+    navLinks.addEventListener("click", (event) => {
+      if (event.target instanceof HTMLAnchorElement) {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation");
+      }
+    });
+  </script>
+</body>
+</html>

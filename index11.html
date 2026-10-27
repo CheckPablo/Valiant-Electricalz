@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Valiant Electricalz | Premium Electrical Engineering Zimbabwe</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        valiant: {
+                            navy: '#0F172A',
+                            navyLight: '#1E293B',
+                            purple: '#4C1D95',
+                            yellow: '#EAB308',
+                            yellowHover: '#CA8A04',
+                            yellowLight: '#FEF08A',
+                            verified: '#1D9BF0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+/* mobile-speed-boost */
+img,svg,video{max-width:100%;height:auto;display:block}
+body{overflow-x:hidden}
+@media (max-width: 768px){
+  html,body{overflow-x:hidden}
+  body{line-height:1.55}
+  .wrap,.container,.max-w-7xl,.max-w-6xl,.max-w-5xl,.max-w-4xl{width:min(100% - 20px,100%) !important}
+  .hero,.section,.nav,.site-header,.cta,.solar,.footer,.fgrid,.grid,.bento,.steps{max-width:100% !important}
+  .mobile-stack > *{width:100% !important}
+}
+</style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-valiant-yellow selection:text-valiant-navy font-sans min-h-screen">
+
+    <!-- Meta Verified Top Banner -->
+    <div class="bg-valiant-navy text-white text-xs py-2.5 px-4 text-center font-medium border-b border-slate-800">
+        <span class="inline-flex items-center gap-2 flex-wrap justify-center">
+            <i class="fas fa-certificate text-valiant-yellow"></i>
+            <span>Official &amp; Verified Electrical Service Provider Across Zimbabwe</span>
+            <span class="inline-flex items-center gap-1 bg-valiant-verified/20 text-valiant-verified px-2.5 py-0.5 rounded-full text-[10px] font-bold border border-valiant-verified/30">
+                <i class="fas fa-check-circle"></i> Meta Verified
+            </span>
+        </span>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 h-20 flex justify-between items-center">
+            
+            <!-- Logo Section -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded-xl bg-valiant-navy flex items-center justify-center p-1.5 shadow-md">
+                    <svg viewBox="0 0 100 100" class="w-full h-full">
+                        <circle cx="50" cy="50" r="42" fill="none" stroke="#8B5CF6" stroke-width="8"/>
+                        <path d="M30 25 L50 75 L70 25" fill="none" stroke="#8B5CF6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M52 15 L32 50 H52 L46 85 L72 45 H50 L56 15 Z" fill="#EAB308" stroke="#0F172A" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="font-display font-extrabold text-lg md:text-xl text-valiant-navy tracking-tight">VALIANT</span>
+                        <span class="font-display font-bold text-lg md:text-xl text-valiant-yellowHover tracking-tight">ELECTRICALZ</span>
+                        <i class="fas fa-check-circle text-valiant-verified text-xs" title="Meta Verified"></i>
+                    </div>
+                    <span class="text-[10px] text-slate-500 font-bold tracking-wider uppercase block -mt-1">
+                        Sparkling Services Everytime
+                    </span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu Links -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-700">
+                <a href="#about" class="hover:text-valiant-yellowHover transition-colors">About</a>
+                <a href="#expertise" class="hover:text-valiant-yellowHover transition-colors">Services</a>
+                <a href="#visualizer" class="hover:text-valiant-yellowHover transition-colors">Lighting Simulator</a>
+                <a href="#estimator" class="hover:text-valiant-yellowHover transition-colors">Cost Calculator</a>
+                <a href="#coverage" class="hover:text-valiant-yellowHover transition-colors">Coverage</a>
+            </div>
+
+            <!-- Direct WhatsApp Button -->
+            <a href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%20would%20like%20to%20inquire%20about%20your%20electrical%20services." 
+               target="_blank"
+               class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold text-valiant-navy bg-valiant-yellow hover:bg-valiant-yellowHover hover:text-white transition-all transform hover:scale-105 shadow-md">
+                <i class="fab fa-whatsapp text-base"></i>
+                <span>+263 710 440 766</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-b from-white via-slate-50 to-slate-100 pt-12 pb-20 md:pt-20 md:pb-28 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 md:px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column Text -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-valiant-navy text-white shadow-sm">
+                        <span class="w-2 h-2 rounded-full bg-valiant-yellow animate-ping"></span>
+                        <span class="text-xs font-bold tracking-wider uppercase">
+                            Certified Electrical Engineering Across Zimbabwe
+                        </span>
+                    </div>
+
+                    <h1 class="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-valiant-navy leading-tight">
+                        Powering Homes &amp; Industries with <span class="text-valiant-yellowHover">Precision</span> &amp; <span class="text-valiant-purple">Safety</span>.
+                    </h1>
+
+                    <p class="text-slate-600 text-base sm:text-lg font-medium max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Valiant Electricalz provides premium electrical wiring, custom drop-ceiling cove lighting, DB board balancing, smart metering, and solar backup power systems across Zimbabwe.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
+                        <a href="https://wa.me/263710440766?text=Hello%20Valiant%20Electricalz%2C%20I%20need%20a%20site%20inspection%20and%20quotation." 
+                           target="_blank"
+                           class="px-8 py-4 bg-valiant-navy text-white hover:bg-valiant-navyLight font-extrabold rounded-xl transition-all shadow-lg hover:-translate-y-0.5 text-center flex items-center justify-center gap-2">
+                            <i class="fab fa-whatsapp text-valiant-yellow text-lg"></i>
+                            <span>Request Fast WhatsApp Quote</span>
+                        </a>
+                        <a href="#visualizer" 
+                           class="px-8 py-4 bg-white text-valiant-navy font-bold rounded-xl border-2 border-slate-300 hover:border-valiant-navy transition-all text-center flex items-center justify-center gap-2 shadow-sm">
+                            <i class="fas fa-lightbulb text-valiant-yellowHover"></i>
+                            <span>Try Lighting Simulator</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column Meta Verified Badge Card -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white border-2 border-slate-200 rounded-3xl p-6 md:p-8 shadow-xl relative overflow-hidden">
+                        <div class="flex items-center justify-between pb-6 border-b border-slate-100">
+                            <div>
+                                <h3 class="font-display font-bold text-xl text-valiant-navy">Valiant Electricalz</h3>
+                                <p class="text-xs text-slate-500 font-semibold">Meta Verified Official Page</p>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-valiant-verified bg-sky-50 px-3 py-1 rounded-full text-xs font-bold border border-sky-200">
+                                <i class="fas fa-check-circle"></i> Verified
+                            </span>
+                        </div>
+
+                        <div class="py-6 space-y-4">
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-500 font-medium"><i class="fas fa-users text-valiant-yellowHover mr-2"></i> Facebook Followers</span>
+                                <span class="font-bold text-valiant-navy">2.7K+ Followers</span>
+                            </div>
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-500 font-medium"><i class="fas fa-phone text-valiant-yellowHover mr-2"></i> Direct Contact</span>
+                                <span class="font-bold text-valiant-navy">+263 710 440 766</span>
+                            </div>
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-500 font-medium"><i class="fas fa-map-marker-alt text-valiant-yellowHover mr-2"></i> Service Area</span>
+                                <span class="font-bold text-valiant-navy">Nationwide Zimbabwe</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-100">
+                            <div class="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                                <p class="text-xs text-slate-700 font-medium italic">
+                                    "Lightup your home with VALIANT ELECTRICALZ today at reasonable price."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <div class="relative z-20 max-w-7xl mx-auto px-4 md:px-6 -mt-10">
+        <div class="bg-white border-2 border-slate-200 rounded-2xl shadow-xl p-6 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="border-r border-slate-200 pr-4">
+                <p class="text-2xl md:text-4xl font-display font-extrabold text-valiant-navy">2.7K+</p>
+                <p class="text-xs md:text-sm font-bold text-slate-500">Facebook Followers</p>
+            </div>
+            <div class="border-r border-slate-200 pr-4">
+                <p class="text-2xl md:text-4xl font-display font-extrabold text-valiant-navy">100%</p>
+                <p class="text-xs md:text-sm font-bold text-slate-500">Certified &amp; Compliant</p>
+            </div>
+            <div class="border-r border-slate-200 pr-4">
+                <p class="text-2xl md:text-4xl font-display font-extrabold text-valiant-navy">8+</p>
+                <p class="text-xs md:text-sm font-bold text-slate-500">Provinces Covered</p>
+            </div>
+            <div>
+                <p class="text-2xl md:text-4xl font-display font-extrabold text-valiant-navy">24/7</p>
+                <p class="text-xs md:text-sm font-bold text-slate-500">Rapid Support</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bento Grid Services Section -->
+    <section id="expertise" class="py-20 md:py-28 px-4 md:px-6 max-w-7xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="font-display text-3xl md:text-5xl font-extrabold text-valiant-navy mb-4">
+                Our Core Electrical Services
+            </h2>
+            <p class="text-slate-600 text-base md:text-lg">
+                Engineered for structural safety, energy efficiency, and modern architectural elegance.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+            
+            <!-- Gypsum Ceiling Lighting (Main Box) -->
+            <div class="md:col-span-8 bg-white border-2 border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-lg hover:border-valiant-navy transition-all">
+                <div>
+                    <div class="w-14 h-14 rounded-2xl bg-valiant-navy text-valiant-yellow flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-valiant-navy mb-3">Gypsum Drop Ceiling Lighting &amp; Ambience</h3>
+                    <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-6 max-w-xl">
+                        Custom installation of LED cove light strips, magnetic track lights, recessed spotlights, and decorative chandeliers for luxury homes and executive spaces.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-4 pt-6 border-t border-slate-100 text-xs md:text-sm font-bold text-slate-700">
+                    <div><i class="fas fa-check text-valiant-yellowHover mr-2"></i> LED Strip Coves</div>
+                    <div><i class="fas fa-check text-valiant-yellowHover mr-2"></i> Magnetic Track Rails</div>
+                    <div><i class="fas fa-check text-valiant-yellowHover mr-2"></i> Recessed Spotlights</div>
+                    <div><i class="fas fa-check text-valiant-yellowHover mr-2"></i> Smart Dimmer Controls</div>
+                </div>
+            </div>
+
+            <!-- Distribution Boards -->
+            <div class="md:col-span-4 bg-white border-2 border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-lg hover:border-valiant-navy transition-all">
+                <div>
+                    <div class="w-14 h-14 rounded-2xl bg-amber-50 text-valiant-yellowHover border border-amber-200 flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-valiant-navy mb-3">DB Board &amp; Smart Metering</h3>
+                    <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-6">
+                        Single-phase and 3-phase DB wiring, surge protection, breaker balancing, and STS token smart meter installations.
+                    </p>
+                </div>
+                <ul class="space-y-2 text-xs md:text-sm font-semibold text-slate-700">
+                    <li class="flex items-center"><i class="fas fa-shield-alt text-valiant-yellowHover mr-2"></i> Surge Protection (SPD)</li>
+                    <li class="flex items-center"><i class="fas fa-charging-station text-valiant-yellowHover mr-2"></i> STS Token Meter Setup</li>
+                </ul>
+            </div>
+
+            <!-- Conduit & Tubing Wiring -->
+            <div class="md:col-span-4 bg-white border-2 border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-lg hover:border-valiant-navy transition-all">
+                <div>
+                    <div class="w-14 h-14 rounded-2xl bg-amber-50 text-valiant-yellowHover border border-amber-200 flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-valiant-navy mb-3">Conduit &amp; Full Tubing</h3>
+                    <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-6">
+                        First-fix wall chasing, PVC/steel conduit runs, underground cable laying, and sub-surface power distribution.
+                    </p>
+                </div>
+                <div class="text-xs font-bold text-valiant-navy flex items-center gap-1">
+                    <span>Full First-Fix &amp; Second-Fix</span>
+                    <i class="fas fa-arrow-right text-valiant-yellowHover"></i>
+                </div>
+            </div>
+
+            <!-- Solar Backup -->
+            <div class="md:col-span-8 bg-valiant-navy text-white rounded-3xl p-8 flex flex-col justify-between shadow-xl">
+                <div>
+                    <div class="w-14 h-14 rounded-2xl bg-white/10 text-valiant-yellow flex items-center justify-center text-2xl mb-6 border border-white/20">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-white mb-3">Solar Systems &amp; Backup Inverters</h3>
+                    <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6 max-w-xl">
+                        Clean energy solutions including roof solar panel mounting, lithium battery banks, hybrid inverter setup, and automatic grid changeover switches.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-3 text-xs font-bold">
+                    <span class="bg-white/10 px-3 py-1.5 rounded-lg border border-white/20 text-slate-100">Residential Solar</span>
+                    <span class="bg-white/10 px-3 py-1.5 rounded-lg border border-white/20 text-slate-100">Commercial Inverters</span>
+                    <span class="bg-white/10 px-3 py-1.5 rounded-lg border border-white/20 text-slate-100">Lithium Storage</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Ceiling Lighting Simulator -->
+    <section id="visualizer" class="py-20 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 md:px-6">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-valiant-yellowHover text-xs font-extrabold uppercase tracking-widest">Interactive Tool</span>
+                <h2 class="font-display text-3xl md:text-4xl font-extrabold text-valiant-navy mt-1">
+                    Ceiling Lighting Mood Simulator
+                </h2>
+                <p class="text-slate-600 text-sm md:text-base mt-2">
+                    Test different color temperatures for your architectural drop ceiling lights.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 border-2 border-slate-200 rounded-3xl p-6 md:p-10 shadow-lg">
+                
+                <!-- Simulation Area -->
+                <div id="roomCanvas" class="w-full h-80 md:h-96 rounded-2xl relative overflow-hidden transition-all duration-700 bg-slate-900 flex flex-col justify-between p-6 border border-slate-700">
+                    
+                    <!-- Simulated Lights -->
+                    <div class="w-full space-y-4">
+                        <div id="coveGlow" class="w-full h-12 rounded-xl transition-all duration-700 bg-amber-400/40 blur-md"></div>
+                        
+                        <div class="flex justify-around items-center pt-2">
+                            <div class="downlight-spot w-8 h-8 rounded-full bg-white shadow-[0_15px_30px_rgba(250,204,21,0.8)]"></div>
+                            <div class="downlight-spot w-8 h-8 rounded-full bg-white shadow-[0_15px_30px_rgba(250,204,21,0.8)]"></div>
+                            <div class="downlight-spot w-8 h-8 rounded-full bg-white shadow-[0_15px_30px_rgba(250,204,21,0.8)]"></div>
+                            <div class="downlight-spot w-8 h-8 rounded-full bg-white shadow-[0_15px_30px_rgba(250,204,21,0.8)]"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <span id="lightingLabel" class="inline-block px-4 py-1.5 rounded-full text-xs font-bold bg-white text-slate-800 shadow-md">
+                            Warm White (3000K) Ambient Cove Glow
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Control Buttons -->
+                <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
+                    <button onclick="setLighting('warm')" class="py-3.5 px-4 rounded-xl font-bold text-xs md:text-sm bg-white border-2 border-amber-400 text-slate-800 hover:bg-amber-50 transition-all shadow-sm">
+                        Warm White (3000K)
+                    </button>
+                    <button onclick="setLighting('neutral')" class="py-3.5 px-4 rounded-xl font-bold text-xs md:text-sm bg-white border-2 border-yellow-200 text-slate-800 hover:bg-yellow-50 transition-all shadow-sm">
+                        Natural White (4000K)
+                    </button>
+                    <button onclick="setLighting('daylight')" class="py-3.5 px-4 rounded-xl font-bold text-xs md:text-sm bg-white border-2 border-sky-400 text-slate-800 hover:bg-sky-50 transition-all shadow-sm">
+                        Cool Daylight (6500K)
+                    </button>
+                    <button onclick="setLighting('rgb')" class="py-3.5 px-4 rounded-xl font-bold text-xs md:text-sm bg-white border-2 border-purple-400 text-slate-800 hover:bg-purple-50 transition-all shadow-sm">
+                        Cyber RGB Glow
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost Estimator Calculator -->
+    <section id="estimator" class="py-20 max-w-7xl mx-auto px-4 md:px-6">
+        <div class="bg-white border-2 border-slate-200 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div class="max-w-3xl mx-auto text-center mb-10">
+                <span class="text-valiant-yellowHover text-xs font-extrabold uppercase tracking-widest">Instant Estimate</span>
+                <h2 class="font-display text-3xl md:text-4xl font-extrabold text-valiant-navy mt-1">
+                    Calculate Project Cost Range
+                </h2>
+                <p class="text-slate-600 text-sm md:text-base mt-2">
+                    Select your property size and scope to get an instant USD price estimate.
+                </p>
+            </div>
+
+            <div class="max-w-2xl mx-auto space-y-8">
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-2">Property Type</label>
+                    <select id="propType" onchange="calculateEstimate()" class="w-full bg-slate-50 border-2 border-slate-200 rounded-xl px-4 py-3 text-slate-800 font-bold text-sm focus:border-valiant-navy outline-none">
+                        <option value="1">Standard Residential House (3-4 Bedrooms)</option>
+                        <option value="1.5">Large Multi-Story Residential / Villa</option>
+                        <option value="2">Commercial Office / Retail Space</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-2">Required Scope</label>
+                    <select id="scopeType" onchange="calculateEstimate()" class="w-full bg-slate-50 border-2 border-slate-200 rounded-xl px-4 py-3 text-slate-800 font-bold text-sm focus:border-valiant-navy outline-none">
+                        <option value="250">Drop Ceiling Cove Lighting &amp; Fittings Only</option>
+                        <option value="450">Full House Wiring &amp; DB Board Setup</option>
+                        <option value="750">Complete Electrical + Solar Backup Package</option>
+                    </select>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border-2 border-slate-200 text-center">
+                    <p class="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Estimated Cost Range</p>
+                    <p id="costOutput" class="text-3xl md:text-4xl font-display font-extrabold text-valiant-navy">$250 - $350 USD</p>
+                    <p class="text-[11px] text-slate-500 mt-2">*Final quote determined after detailed site inspection.</p>
+                </div>
+
+                <button onclick="sendWhatsAppEstimate()" class="w-full py-4 bg-valiant-navy hover:bg-valiant-navyLight text-white font-extrabold rounded-xl transition-all shadow-lg flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-valiant-yellow text-lg"></i>
+                    <span>Send Estimate to WhatsApp (+263 710 440 766)</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Hub -->
+    <section id="coverage" class="py-20 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 md:px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-display text-3xl md:text-4xl font-extrabold text-valiant-navy mb-3">
+                    Locations Covered Across Zimbabwe
+                </h2>
+                <p class="text-slate-600 text-sm md:text-base">
+                    Valiant Electricalz deploys certified teams to major residential and commercial regions across the country.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-6">
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Glen Lorne (Harare)</h4>
+                    <p class="text-xs text-slate-500">Luxury Ceiling &amp; Wiring</p>
+                </div>
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Mutare</h4>
+                    <p class="text-xs text-slate-500">Commercial &amp; Residential</p>
+                </div>
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Rusape</h4>
+                    <p class="text-xs text-slate-500">Full House Conduit Wiring</p>
+                </div>
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Chipinge</h4>
+                    <p class="text-xs text-slate-500">Agricultural &amp; Domestic</p>
+                </div>
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Chiredzi</h4>
+                    <p class="text-xs text-slate-500">Heavy Industrial Wiring</p>
+                </div>
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Banket</h4>
+                    <p class="text-xs text-slate-500">DB Board &amp; Solar Systems</p>
+                </div>
+                <div class="bg-white border border-slate-200 p-5 rounded-2xl text-center shadow-sm">
+                    <i class="fas fa-map-marker-alt text-valiant-yellowHover mb-2"></i>
+                    <h4 class="font-bold text-valiant-navy text-sm">Hurungwe</h4>
+                    <p class="text-xs text-slate-500">Rural &amp; Urban Grid Setup</p>
+                </div>
+                <div class="bg-valiant-navy text-white p-5 rounded-2xl text-center shadow-md">
+                    <i class="fas fa-globe-africa text-valiant-yellow mb-2"></i>
+                    <h4 class="font-bold text-sm">All Zimbabwe</h4>
+                    <p class="text-xs text-valiant-yellow font-semibold">On-Demand Dispatch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-valiant-navy text-white pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
+            <div>
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="font-display font-bold text-xl text-white">VALIANT</span>
+                    <span class="font-display font-bold text-xl text-valiant-yellow">ELECTRICALZ</span>
+                    <i class="fas fa-check-circle text-valiant-verified text-xs"></i>
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                    Sparkling Services Everytime. Premium electrical wiring, ceiling illumination, distribution boards, and solar energy installations across Zimbabwe.
+                </p>
+                <div class="flex gap-3">
+                    <a href="https://facebook.com/valiantelectricalzw" target="_blank" class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white hover:text-valiant-yellow transition-colors">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/263710440766" target="_blank" class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white hover:text-valiant-yellow transition-colors">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Contact Info</h4>
+                <ul class="space-y-3 text-sm text-slate-300">
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-phone text-valiant-yellow"></i>
+                        <span>+263 710 440 766</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fab fa-whatsapp text-valiant-yellow"></i>
+                        <span>WhatsApp Quick Dispatch</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-check-double text-valiant-verified"></i>
+                        <span>Meta Verified Business</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Quick Quotation</h4>
+                <p class="text-xs text-slate-300 mb-4">Ready to start your electrical installation or ceiling project?</p>
+                <a href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%20need%20a%20quote." target="_blank" class="inline-block px-6 py-3 bg-valiant-yellow text-valiant-navy font-bold text-xs rounded-xl hover:bg-valiant-yellowHover hover:text-white transition-colors">
+                    Chat Directly on WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 md:px-6 pt-8 border-t border-slate-800 text-center text-xs text-slate-400">
+            &copy; 2026 Valiant Electricalz. All rights reserved. Premium Electrical Services Across Zimbabwe.
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp CTA -->
+    <a href="https://wa.me/263710440766?text=Hi%20Valiant%20Electricalz%2C%20I%20would%20like%20to%20get%20in%20touch." 
+       target="_blank"
+       class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-emerald-500 text-white rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition-transform"
+       title="Direct WhatsApp Support">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Interactive Scripts -->
+    <script>
+        function setLighting(mode) {
+            const cove = document.getElementById('coveGlow');
+            const spots = document.querySelectorAll('.downlight-spot');
+            const label = document.getElementById('lightingLabel');
+
+            if (mode === 'warm') {
+                cove.className = "w-full h-12 rounded-xl transition-all duration-700 bg-amber-400/40 blur-md";
+                spots.forEach(s => s.style.boxShadow = "0 15px 30px rgba(250, 204, 21, 0.8)");
+                label.innerText = "Warm White (3000K) Ambient Cove Glow";
+            } else if (mode === 'neutral') {
+                cove.className = "w-full h-12 rounded-xl transition-all duration-700 bg-yellow-100/40 blur-md";
+                spots.forEach(s => s.style.boxShadow = "0 15px 30px rgba(254, 240, 138, 0.8)");
+                label.innerText = "Natural White (4000K) Architectural Daylight";
+            } else if (mode === 'daylight') {
+                cove.className = "w-full h-12 rounded-xl transition-all duration-700 bg-sky-300/40 blur-md";
+                spots.forEach(s => s.style.boxShadow = "0 15px 30px rgba(56, 189, 248, 0.8)");
+                label.innerText = "Cool Daylight (6500K) High-Visibility Brightness";
+            } else if (mode === 'rgb') {
+                cove.className = "w-full h-12 rounded-xl transition-all duration-700 bg-purple-500/50 blur-md";
+                spots.forEach(s => s.style.boxShadow = "0 15px 30px rgba(168, 85, 247, 0.9)");
+                label.innerText = "Cyber RGB Custom Mood Lighting";
+            }
+        }
+
+        function calculateEstimate() {
+            const mult = parseFloat(document.getElementById('propType').value);
+            const base = parseFloat(document.getElementById('scopeType').value);
+            const low = Math.round(base * mult);
+            const high = Math.round(low * 1.35);
+            document.getElementById('costOutput').innerText = `$${low} - $${high} USD`;
+        }
+
+        function sendWhatsAppEstimate() {
+            const prop = document.getElementById('propType').selectedOptions[0].text;
+            const scope = document.getElementById('scopeType').selectedOptions[0].text;
+            const cost = document.getElementById('costOutput').innerText;
+            const msg = `Hi Valiant Electricalz! I used your website estimator.%0A%0A*Property Type:* ${prop}%0A*Scope:* ${scope}%0A*Estimated Cost Range:* ${cost}%0A%0AI would like to schedule a site inspection.`;
+            window.open(`https://wa.me/263710440766?text=${msg}`, '_blank');
+        }
+    </script>
+
+</body>
+</html>

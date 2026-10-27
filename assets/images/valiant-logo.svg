@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Valiant Electricalz mark</title>
+  <rect width="100" height="100" rx="22" fill="#0f172a"/>
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#8b5cf6" stroke-width="7"/>
+  <path d="M30 25 50 75 70 25" fill="none" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m54 15-22 35h19l-5 35 27-42H53l7-28z" fill="#eab308" stroke="#0f172a" stroke-width="2" stroke-linejoin="round"/>
+</svg>
