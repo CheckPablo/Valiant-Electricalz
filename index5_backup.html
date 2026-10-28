@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#142b3d">
+<meta name="description" content="Valiant Electricalz Pvt Ltd provides electrical installations, repairs, maintenance and solar services for domestic and industrial clients across Zimbabwe.">
+<title>Valiant Electricalz | Reliable electrical and solar services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* mobile-speed-boost */
+img,svg,video{max-width:100%;height:auto;display:block}
+body{overflow-x:hidden}
+@media (max-width: 768px){
+  html,body{overflow-x:hidden}
+  body{line-height:1.55}
+  .wrap,.container,.max-w-7xl,.max-w-6xl,.max-w-5xl,.max-w-4xl{width:min(100% - 20px,100%) !important}
+  .hero,.section,.nav,.site-header,.cta,.solar,.footer,.fgrid,.grid,.bento,.steps{max-width:100% !important}
+  .mobile-stack > *{width:100% !important}
+}
+
+:root{--bg:#f7f6fb;--surface:#fff;--text:#1d1e3a;--muted:#62637a;--line:#e3e1ee;--purple:#3e4095;--deep:#1c1d4a;--gold:#f6b519;--soft:#ecebf8;
+--body:"DM Sans",system-ui,sans-serif;--display:"Sora","DM Sans",sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101126;--surface:#181a3a;--text:#f1f0fa;--muted:#a9aac4;--line:#2b2d58;--soft:#1f2147}}
+:root[data-theme="dark"]{--bg:#101126;--surface:#181a3a;--text:#f1f0fa;--muted:#a9aac4;--line:#2b2d58;--soft:#1f2147}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(90px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.65 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1160px,calc(100% - 40px));margin-inline:auto}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.02em;line-height:1.1}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:999px;font-weight:700;font-size:15px;border:1.5px solid transparent;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:#1c1d4a}.btn-gold:hover{background:#ffc83d}
+.btn-ghost{border-color:rgba(255,255,255,.35);color:#fff}.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-purple{background:var(--purple);color:#fff}.btn-purple:hover{background:#4a4cb0}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;padding-top:12px}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 10px 8px 16px;border-radius:999px;background:rgba(28,29,74,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);color:#fff;position:relative}
+.brand{display:flex;align-items:center;gap:10px;font:800 14px var(--display);letter-spacing:.01em}
+.brand small{display:block;font:400 11px var(--body);color:#c9c9e6;letter-spacing:0}
+.logo{width:38px;height:38px;flex:none;object-fit:contain;border-radius:9px;background:#fff}
+.links{display:flex;gap:26px;font-size:14px;font-weight:500;color:#dcdcf2}
+.links a:hover{color:var(--gold)}
+.nav .btn{min-height:42px;padding:0 18px;font-size:14px}
+.burger{display:none;width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;font-size:18px;cursor:pointer}
+
+/* hero */
+.hero{margin-top:-72px;padding:150px 0 90px;background:radial-gradient(900px 500px at 85% 20%,#4b4db8 0,transparent 60%),radial-gradient(600px 400px at 0 100%,#2c2e78 0,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(42px,6.4vw,76px);font-weight:800;letter-spacing:-.04em}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--gold),#ffdc7a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{max-width:470px;margin:22px 0 30px;color:#d6d6ee;font-size:18px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.loc{display:inline-flex;align-items:center;gap:8px;margin-top:30px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);font-size:13px;color:#e6e6f6}
+.loc i{width:8px;height:8px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 4px rgba(61,220,132,.2)}
+.scene{position:relative}
+.scene img.art{width:100%;height:560px;object-fit:cover;border-radius:28px;border:1px solid rgba(255,255,255,.14);box-shadow:0 30px 70px rgba(5,5,30,.5)}
+.chip{position:absolute;display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:16px;background:rgba(255,255,255,.95);color:#1c1d4a;font-size:13px;font-weight:700;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.chip b{display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:var(--gold)}
+.chip.c1{left:-18px;bottom:48px}.chip.c2{right:-10px;top:26px}
+/* trust strip */
+.strip{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;padding:26px 0;border-bottom:1px solid var(--line)}
+.strip span{padding:8px 18px;border-radius:999px;background:var(--soft);color:var(--purple);font-size:14px;font-weight:700}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .strip span{color:#cfd0ff}}
+:root[data-theme="dark"] .strip span{color:#cfd0ff}
+
+/* services bento */
+section{padding:96px 0}
+.head{max-width:640px;margin-bottom:44px}
+.head h2{font-size:clamp(32px,4.4vw,48px);font-weight:700}
+.head p{color:var(--muted);margin:14px 0 0;font-size:17px}
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:28px;position:relative;overflow:hidden}
+.card h3{font-size:22px;margin:18px 0 8px}.card p{margin:0;color:var(--muted);font-size:15px}
+.ico{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:var(--soft);color:var(--purple)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ico{color:var(--gold)}}
+:root[data-theme="dark"] .ico{color:var(--gold)}
+.ico span{font-size:25px;font-weight:700;line-height:1}
+.b1{grid-column:span 4;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;background:var(--deep);color:#fff;border-color:transparent}
+.b1 p{color:#cfd0ea}.b1 .ico{background:rgba(255,255,255,.1);color:var(--gold)}
+.b1 img.ph{width:100%;height:220px;object-fit:cover;border-radius:18px}
+.b2{grid-column:span 2}.b3{grid-column:span 3}.b4{grid-column:span 3;background:var(--gold);border-color:transparent;color:#1c1d4a}
+.b4 p{color:#4a3f10}.b4 .ico{background:rgba(28,29,74,.12);color:#1c1d4a}
+
+/* solar */
+.solar{background:linear-gradient(135deg,#2a2b6e,#1c1d4a);color:#fff;border-radius:36px;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+.solar img.ph{width:100%;height:100%;min-height:340px;object-fit:cover}
+.solar-copy{padding:clamp(30px,5vw,64px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.solar-copy h2{font-size:clamp(30px,4vw,44px)}
+.solar-copy p{color:#d4d4ee;margin:16px 0 22px;max-width:420px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.tags span{padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.28);font-size:13px}
+
+/* steps + areas */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+.step{padding:26px;border-radius:24px;border:1px dashed var(--line);counter-increment:s}
+.step::before{content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--purple);color:#fff;font:700 15px var(--display);margin-bottom:16px}
+.step h3{font-size:19px;margin-bottom:6px}.step p{margin:0;color:var(--muted);font-size:15px}
+.areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.areas span{padding:10px 18px;border-radius:14px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:500}
+.areas span.hl{background:var(--gold);border-color:var(--gold);color:#1c1d4a;font-weight:700}
+
+/* cta + footer */
+.cta{margin:0 auto 90px;padding:clamp(34px,6vw,64px);border-radius:36px;background:var(--gold);color:#1c1d4a;display:flex;align-items:center;justify-content:space-between;gap:28px;position:relative;overflow:hidden}
+.cta h2{font-size:clamp(28px,4vw,44px);max-width:620px}
+.cta .btn{background:#1c1d4a;color:#fff;flex:none}
+footer{background:var(--deep);color:#d6d6ee;padding:54px 0 calc(24px + env(safe-area-inset-bottom,0px))}
+.fgrid{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:40px;padding-bottom:34px}
+footer h4{margin:0 0 14px;color:var(--gold);font:700 14px var(--display)}
+footer .col{display:grid;gap:10px;justify-items:start;font-size:15px}
+footer a:hover{color:var(--gold)}
+.social{display:flex;gap:10px;margin-top:18px}
+.social a{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.25);color:#fff}
+.social a:hover{background:var(--gold);color:#1c1d4a}
+.copy{display:flex;justify-content:space-between;gap:12px;padding-top:18px;border-top:1px solid rgba(255,255,255,.15);font-size:13px;color:#a9aac8}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#20bf60;color:#fff;box-shadow:0 10px 26px rgba(0,0,0,.3);transition:transform .2s}
+.wa:hover{transform:scale(1.08)}.wa strong{font-size:13px}
+
+@media (max-width:900px){.hero-grid,.solar{grid-template-columns:1fr}.scene{max-width:520px}.scene img.art{height:440px}.chip.c1{left:8px}.chip.c2{right:8px}.b1{grid-column:span 6}.b2{grid-column:span 6}.fgrid{grid-template-columns:1fr 1fr}.fgrid>:first-child{grid-column:1/-1}}
+@media (max-width:680px){
+.links{display:none;position:absolute;top:calc(100% + 8px);left:0;right:0;flex-direction:column;gap:0;padding:8px 20px;border-radius:24px;background:rgba(28,29,74,.97);border:1px solid rgba(255,255,255,.12)}
+.links.open{display:flex}.links a{padding:14px 0;border-top:1px solid rgba(255,255,255,.1)}.links a:first-child{border-top:0}
+.nav>.btn{display:none}.burger{display:block}
+.hero{padding:120px 0 64px}section{padding:64px 0}.scene img.art{height:360px}
+.b1,.b3,.b4{grid-column:span 6;grid-template-columns:1fr}.steps{grid-template-columns:1fr}
+.cta{flex-direction:column;align-items:flex-start}.copy{flex-direction:column}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important}}
+
+/* More measured, architectural styling */
+:root{--bg:#f4f5f6;--surface:#fff;--text:#1c2b3a;--muted:#64717c;--line:#dce1e5;--purple:#23415a;--deep:#142b3d;--gold:#d6ad5c;--soft:#e9eef1}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111d27;--surface:#1b2b37;--text:#eef2f4;--muted:#afbbc4;--line:#344753;--soft:#253844}}
+:root[data-theme="dark"]{--bg:#111d27;--surface:#1b2b37;--text:#eef2f4;--muted:#afbbc4;--line:#344753;--soft:#253844}
+.btn{border-radius:4px;transition:background .2s,border-color .2s}
+.btn:hover{transform:none}
+.btn-gold{background:#d6ad5c;color:#142b3d}.btn-gold:hover{background:#e2c27e}
+.btn-ghost{border-color:rgba(255,255,255,.45)}
+header{padding-top:0;background:#142b3d}
+.nav{border-radius:0;background:#142b3d;border:0;border-bottom:1px solid rgba(255,255,255,.14);backdrop-filter:none;-webkit-backdrop-filter:none;padding:12px 0}
+.logo{border-radius:3px}
+.brand{letter-spacing:0}
+.brand small{color:#bdc9d1}
+.links{color:#d6e0e7}
+.burger{border-radius:4px}
+.hero{margin-top:0;padding:88px 0 76px;background:#142b3d}
+.hero h1{letter-spacing:-.035em}
+.hero h1 em{background:none;color:#d6ad5c}
+.hero p.lead{color:#d0d9df}
+.loc{border:0;border-left:2px solid #d6ad5c;border-radius:0;background:transparent;padding:4px 0 4px 12px;color:#d6e0e7}
+.loc i{display:none}
+.scene img.art{border-radius:5px;border:0;box-shadow:0 18px 42px rgba(5,16,25,.24)}
+.chip{display:none}
+.strip{justify-content:flex-start;gap:0;padding:19px 0}
+.strip span{padding:3px 18px;border-radius:0;background:transparent;color:#415565;font-size:13px;border-right:1px solid var(--line)}
+.strip span{color:var(--muted)}
+.strip span:first-child{padding-left:0}
+.strip span:last-child{border-right:0}
+section{padding:80px 0}
+.head h2{font-weight:600}
+.bento{gap:14px}
+.card{border-radius:6px;padding:26px}
+.card h3{font-weight:600}
+.ico{width:44px;height:44px;border-radius:4px;background:#edf1f3;color:#23415a}
+.ico span{font:600 14px var(--display);letter-spacing:.04em}
+.b1{background:#e9eef1;color:#1c2b3a;border-color:var(--line)}
+.b1 p{color:#64717c}
+.b1 .ico{background:#dce5ea;color:#23415a}
+.b1 img.ph{border-radius:4px}
+.b4{background:#e9eef1;border-color:var(--line);color:#1c2b3a}
+.b4 p{color:#64717c}
+.b4 .ico{background:#dce5ea;color:#23415a}
+.solar{border-radius:6px;background:#1c3b52}
+.solar img.ph{min-height:380px}
+.tags span{border-radius:3px;border-color:rgba(255,255,255,.36)}
+.step{border:1px solid var(--line);border-radius:5px}
+.step::before{border-radius:4px;background:#23415a}
+.areas span,.areas span.hl{border-radius:4px}
+.areas span.hl{background:#e9eef1;border-color:#b9c8d1;color:#23415a}
+.cta{border-radius:6px;background:#e9eef1;color:#1c2b3a;border:1px solid var(--line)}
+.cta .btn{background:#142b3d;color:#fff}
+footer{background:#142b3d}
+.social a{border-radius:4px}
+.wa{width:52px;height:52px;border-radius:6px}
+.wa:hover{transform:none}
+@media (max-width:680px){
+  .nav{padding:10px 0}
+  .hero{padding:72px 0 56px}
+  section{padding:58px 0}
+  .strip{justify-content:center;flex-wrap:wrap}
+  .strip span{padding:5px 10px}
+  .links{background:#142b3d;border:1px solid rgba(255,255,255,.14)}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav class="nav" aria-label="Main navigation">
+<a class="brand" href="#top" aria-label="Valiant Electricalz home">
+<img class="logo" src="assets/images/logo_one.jpg" alt="">
+<span>Valiant Electricalz<small>Electrical &amp; energy solutions</small></span></a>
+<div class="links" id="links"><a href="#services">Services</a><a href="#solar">Solar</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<a class="btn btn-gold" href="https://wa.me/263786862503?text=Hi%20Valiant%20Electricalz%2C%20I%E2%80%99d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">Talk to an electrician</a>
+<button class="burger" id="burger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="links">☰</button>
+</nav></div></header>
+
+<main id="top">
+<section class="hero" aria-labelledby="t"><div class="wrap hero-grid">
+<div>
+<h1 id="t">Reliable power.<br><em>Work built to last.</em></h1>
+<p class="lead">From essential repairs to full installations and solar energy, we help homes and industries across Zimbabwe keep life moving.</p>
+<div class="actions">
+<a class="btn btn-gold" href="https://wa.me/263786862503?text=Hello%20Valiant%20Electricalz%2C%20I%E2%80%99d%20like%20to%20request%20a%20quote." target="_blank" rel="noopener noreferrer">Request a quote</a>
+<a class="btn btn-ghost" href="#services">Explore services</a></div>
+<div class="loc"><i></i>Based in Hatcliffe, Harare, serving Zimbabwe</div>
+</div>
+<div class="scene">
+<img class="art" src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Electrician carrying out a careful electrical installation" fetchpriority="high">
+</div></div></section>
+
+<div class="wrap strip" aria-label="Who we serve"><span>Domestic</span><span>Industrial</span><span>Repairs</span><span>Maintenance</span><span>Solar energy</span></div>
+
+<section id="services"><div class="wrap">
+<div class="head"><h2>Good power starts with good work.</h2><p>Whether you need a repair, a new installation or a better energy plan, our team can help you find the right next step.</p></div>
+<div class="bento">
+<article class="card b1"><div>
+<div class="ico" aria-hidden="true"><span>01</span></div>
+<h3>Electrical installations</h3><p>Thoughtful installation work for new builds, renovations and business spaces.</p></div>
+<img class="ph" src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Electrician working on an installation" loading="lazy"></article>
+<article class="card b2"><div class="ico" aria-hidden="true"><span>02</span></div>
+<h3>Repairs &amp; maintenance</h3><p>Get help with electrical issues and ongoing maintenance for your property.</p></article>
+<article class="card b3"><div class="ico" aria-hidden="true"><span>03</span></div>
+<h3>Domestic &amp; industrial</h3><p>Practical electrical services for households, workplaces and industrial sites.</p></article>
+<article class="card b4"><div class="ico" aria-hidden="true"><span>04</span></div>
+<h3>Solar energy solutions</h3><p>Explore solar and backup options to support the way you use power.</p></article>
+</div></div></section>
+
+<section id="solar" style="padding-top:0"><div class="wrap"><div class="solar">
+<img class="ph" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Solar panels installed beneath a clear sky" loading="lazy">
+<div class="solar-copy"><h2>Solar solutions for dependable power.</h2>
+<p>Looking at solar for your home or business? Talk with Valiant Electricalz about your power needs and explore a system that suits your property.</p>
+<div class="tags"><span>Solar energy</span><span>Home &amp; industry</span><span>Zimbabwe-wide service</span></div>
+<a class="btn btn-gold" href="https://wa.me/263786862503?text=Hi%20Valiant%20Electricalz%2C%20I%E2%80%99d%20like%20to%20ask%20about%20solar%20energy." target="_blank" rel="noopener noreferrer">Ask us about solar</a></div>
+</div></div></section>
+
+<section id="about" style="padding-top:0"><div class="wrap">
+<div class="head"><h2>Here to help keep you connected.</h2><p>Valiant Electricalz Pvt Ltd provides electrical installations, repairs and maintenance for domestic and industrial clients across Zimbabwe. The team is based in Hatcliffe, Harare.</p></div>
+<div class="steps">
+<div class="step"><h3>Tell us what you need</h3><p>Message or call with your project, issue or solar question.</p></div>
+<div class="step"><h3>Talk it through</h3><p>We discuss your property and power needs and find the right next step.</p></div>
+<div class="step"><h3>Get it done</h3><p>Our team carries out the work for your home or business.</p></div>
+</div>
+<div class="areas" aria-label="Areas served"><span class="hl">Hatcliffe, Harare</span><span>Mutare</span><span>Rusape</span><span>Chipinge</span><span>Chiredzi</span><span>Banket</span><span>Hurungwe</span><span>Ask about your area</span></div>
+</div></section>
+
+<div class="wrap" id="contact"><div class="cta">
+<h2>Need electrical work? Start with a conversation.</h2>
+<a class="btn" href="https://wa.me/263786862503?text=Hi%20Valiant%20Electricalz%2C%20I%E2%80%99d%20like%20to%20discuss%20my%20electrical%20project." target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>
+</div></div>
+</main>
+
+<footer><div class="wrap">
+<div class="fgrid">
+<div><a class="brand" href="#top"><img class="logo" src="assets/images/logo_one.jpg" alt=""><span>Valiant Electricalz<small>Electrical &amp; energy solutions</small></span></a>
+<p style="max-width:340px;font-size:14px;margin:14px 0 0">Electrical installations, repairs, maintenance and solar energy for domestic and industrial clients across Zimbabwe.</p>
+<div class="social">
+<a href="https://www.facebook.com/profile.php?id=61593049846111" target="_blank" rel="noopener noreferrer" aria-label="Valiant Electricalz on Facebook">f</a>
+<a href="https://www.instagram.com/valiant_electricalzw" target="_blank" rel="noopener noreferrer" aria-label="Valiant Electricalz on Instagram">◎</a>
+<a href="https://wa.me/263786862503" target="_blank" rel="noopener noreferrer" aria-label="Valiant Electricalz on WhatsApp">WA</a>
+</div></div>
+<div><h4>Navigate</h4><div class="col"><a href="#services">Services</a><a href="#solar">Solar energy</a><a href="#about">About us</a><a href="#contact">Contact</a></div></div>
+<div><h4>Get in touch</h4><div class="col"><a href="tel:+263786862503">+263 78 686 2503</a><a href="mailto:info@valiantelectricalz.co.zw">info@valiantelectricalz.co.zw</a><span>Hatcliffe, Harare, Zimbabwe</span></div></div>
+</div>
+<div class="copy"><span>© 2026 Valiant Electricalz Pvt Ltd</span><span>Domestic, industrial and solar</span></div>
+</div></footer>
+
+<a class="wa" href="https://wa.me/263786862503?text=Hi%20Valiant%20Electricalz%2C%20I%E2%80%99d%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer" aria-label="Chat with Valiant Electricalz on WhatsApp">
+<strong aria-hidden="true">WA</strong></a>
+<script>
+const b=document.getElementById("burger"),l=document.getElementById("links");
+function set(o){l.classList.toggle("open",o);b.setAttribute("aria-expanded",String(o));b.setAttribute("aria-label",o?"Close navigation":"Open navigation")}
+b.addEventListener("click",()=>set(!l.classList.contains("open")));
+l.addEventListener("click",e=>{if(e.target instanceof HTMLAnchorElement)set(false)});
+</script>
+</body>
+</html>
